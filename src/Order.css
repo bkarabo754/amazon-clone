@@ -1,0 +1,25 @@
+.order {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+    box-shadow: -1px 4px 20px -6px rgb(0,0,0,0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.order:hover {
+    transform: scale(1.01)
+}
+
+.order__id {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.order__total {
+    font-weight: 500;
+    text-align: right;
+}
